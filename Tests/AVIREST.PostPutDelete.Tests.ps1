@@ -6,8 +6,6 @@ BeforeAll {
 
         $errorActionPreference = 'Stop'
         Try {
-            $aviModuleManifest = Get-ChildItem AVIRest.psd1 -Recurse
-            Import-Module $aviModuleManifest.FullName -Force -Verbose
             $credential = get-secret $secret
             $secretInfo = get-secretinfo $secret
             Connect-AVIRest -Server $secretInfo.Metadata.Server -Credential $credential
