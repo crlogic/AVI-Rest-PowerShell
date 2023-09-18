@@ -2,12 +2,9 @@
 
 ## Installation
 1) Ensure you have PowerShell v7.3+ installed
-2) Copy the contents of this `powershell` folder to a unique module directory
+2) Copy the contents of this folder to a unique module directory
 
     Eg. `%userprofile%Documents\PowerShell\Modules\AviRest`
-3) Copy the `swagger` folder into the local module folder
-
-    Eg. `%userprofile%Documents\PowerShell\Modules\AviRest\swagger`
 
 ## Usage
 1) Review the [Examples Readme](Examples/README.MD)
