@@ -2,7 +2,12 @@
 
 ## Installation
 1) Ensure you have PowerShell v7.3+ installed
-2) Copy the contents of this folder to a unique module directory
+2) Install options
+    #### Install from PowerShell Gallery
+    `Install-Module AVIREST`
+
+    #### Install from this repo
+    Copy the contents of this folder to a unique module directory
 
     Eg. `%userprofile%Documents\PowerShell\Modules\AviRest`
 
