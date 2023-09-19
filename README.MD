@@ -15,6 +15,11 @@
 1) Review the [Examples Readme](Examples/README.MD)
 2) Import the module `Import-Module AviRest`
 3) Connect to an ALB
+
+    Eg.  `Connect-AVIRest -Server $albFQDN -Credential $credential`
+
+    Eg.  `Connect-AVIRest -Server $albFQDN -Username $username -Password $password`
+
 4) Review available cmdlets `Get-Command -Module AviRest`
 
 ## Why use this module?
